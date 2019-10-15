@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 if(position == 0){
-                    Intent intent = new Intent(this, DrinkCategoryActivity.class);
+                    Intent intent = new Intent(MainActivity.this, DrinkCategoryActivity.class);
                     startActivity(intent);
                 }
             }
